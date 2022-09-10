@@ -11,7 +11,7 @@ contract YouTube {
 
     //  Create a struct called 'Video' with the following properties:
     struct Video {
-        uint256 id:
+        uint256 id;
         string hash;
         string title;
         string description;
